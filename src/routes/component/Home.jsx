@@ -1,15 +1,19 @@
+import Contract from "./Contract";
+import Products from "./Products";
+import Slider from "./Slider";
+
 const Home = () => {
     return (
         <div>
             <p>Hasan</p>
-            {/* <Banner></Banner>
-            <About></About>
-            <Education></Education>
-            <Services></Services>
-            <Technology></Technology>
-            <Projects></Projects>
-            <Experience></Experience>
-            <Contract></Contract> */}
+            <Slider></Slider>
+            {/* <About></About> */}
+            {/* <Education></Education> */}
+            <Products></Products>
+            {/* <Technology></Technology> */}
+            {/* <Projects></Projects> */}
+            {/* <Experience></Experience> */}
+            <Contract></Contract>
         </div>
     );
 };

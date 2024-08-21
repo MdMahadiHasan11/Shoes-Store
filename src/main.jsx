@@ -6,6 +6,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Routes from './routes/Routes';
+// import Routes from './routes/Routes';
 // import Router from './routes/router/Router.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
