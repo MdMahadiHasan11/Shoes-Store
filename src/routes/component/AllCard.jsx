@@ -30,7 +30,7 @@ const AllCard = ({ craft }) => {
                     <div className="text-center">
                         <h1 className="text-2xl font-bold">{craft.product_name}</h1>
                         <div className="mb-6 mt-3">
-                            <p>CategoryName: {craft.category}</p>
+                            <p>Category: {craft.category}</p>
                         </div>
 
                         <hr className="border-b border-gray-300 my-4" />
@@ -40,11 +40,11 @@ const AllCard = ({ craft }) => {
                             <p>Rating:{craft.ratings}</p>
                         </div>
                         <div className="flex my-6 justify-between  font-semibold">
-                        <p className="font-bold">
-                            Date:{craft.creation_date}
-                        </p>
-                        <p>Time:{craft.creation_date}</p>
-                    </div>
+                            <p className="font-bold">
+                                Date: {new Date(craft.creation_date).toLocaleDateString()}
+                            </p>
+                            {/* <p>Time:{craft.creation_date.toLocaleTimeString()}</p> */}
+                        </div>
                         <div className="flex mt-4 ">
                         </div>
 

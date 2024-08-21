@@ -5,7 +5,6 @@ import Slider from "./Slider";
 const Home = () => {
     return (
         <div>
-            <p>Hasan</p>
             <Slider></Slider>
             {/* <About></About> */}
             {/* <Education></Education> */}

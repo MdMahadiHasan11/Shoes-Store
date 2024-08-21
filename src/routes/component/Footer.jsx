@@ -6,7 +6,7 @@ const Footer = () => {
         <footer className="footer footer-center p-10 bg-gray-100">
             <aside>             
                 <p className="font-bold">
-                    HelpNexus <br />Providing reliable tech since 2024
+                Shoes-Shop <br />
                 </p>
                 <p>Copyright © 2024 - All right reserved</p>
             </aside>

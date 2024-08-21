@@ -2,9 +2,9 @@ import React from 'react';
 
 const Navber = () => {
     return (
-        <div className="flex   items-center justify-between pt-2 pb-8">
+        <div className="flex   items-center justify-between pt-2 pb-8 bg-yellow-700 py-8  text-white">
             <div>
-                <p className="text-xl md:hidden font-bold">Hasan</p>
+                <p className="text-xl pl-5 font-bold">Shoes-Shop</p>
             </div>
 
             {/* <div className="md:p-4 p-2 md:space-x-6 space-x-2 font-semibold">
@@ -17,10 +17,10 @@ const Navber = () => {
             </div> */}
             <div className="hidden md:flex  md:p-4 p-2 md:space-x-6 space-x-2 font-semibold">
                 <a href="#home" className='text-cyan-500'>Home</a>
-                <a href="#about" className="transition transform hover:scale-110 hover:text-cyan-500">About Me</a>
+                {/* <a href="#about" className="transition transform hover:scale-110 hover:text-cyan-500">About Me</a>
                 <a href="#skills" className="transition transform hover:scale-110 hover:text-cyan-500">Skills</a>
                 <a href="#services" className="transition transform hover:scale-110 hover:text-cyan-500">Services</a>
-                <a href="#projects" className="transition transform hover:scale-110 hover:text-cyan-500">Projects</a>
+                <a href="#projects" className="transition transform hover:scale-110 hover:text-cyan-500">Projects</a> */}
                 <a href="#contract" className="transition transform hover:scale-110 hover:text-cyan-500">Contract</a>
             </div>
 
@@ -46,7 +46,7 @@ const Navber = () => {
                         <li className="transition transform hover:scale-105 rounded-box hover:bg-[#26052E]">
                         <a href="#home" className='text-cyan-500'>Home</a>
                         </li>
-                        <li className="transition transform hover:scale-105 rounded-box hover:bg-[#26052E]">
+                        {/* <li className="transition transform hover:scale-105 rounded-box hover:bg-[#26052E]">
                         <a href="#about">About</a>
                         </li>
                         <li className="transition transform hover:scale-105 rounded-box hover:bg-[#26052E]">
@@ -57,7 +57,7 @@ const Navber = () => {
                         </li>
                         <li className="transition transform hover:scale-105 rounded-box hover:bg-[#26052E]">
                         <a href="#projects">Projects</a>
-                        </li>
+                        </li> */}
                         <li className="transition transform hover:scale-105 rounded-box hover:bg-[#26052E]">
                         <a href="#contract">Contract</a>
                         </li>
